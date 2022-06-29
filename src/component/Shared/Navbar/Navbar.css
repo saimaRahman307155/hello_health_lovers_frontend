@@ -1,0 +1,6 @@
+#text-Color {
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgb(138, 140, 210), rgb(15, 6, 184));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

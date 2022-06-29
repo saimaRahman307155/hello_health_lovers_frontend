@@ -1,0 +1,63 @@
+.bgBanner {
+    background-image: url('../../../../images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-flex {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-gap {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.aboutImage {
+    height: 90%;
+    width: 40%;
+    padding-left: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-flex {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .text-gap {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /* For mobile phones: */
+    .aboutImage {
+        height: 150px;
+        width: 100px;
+        padding-left: 0%;
+        padding-bottom: 10px;
+    }
+
+    #aboutme-text {
+        font-size: 18px;
+    }
+
+    #subtitle {
+        font-size: 8px;
+        line-height: 1.5;
+    }
+
+}
